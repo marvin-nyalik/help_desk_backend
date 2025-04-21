@@ -9,6 +9,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.1]
 
       ## Recoverable
       t.string   :reset_password_token
+      t.string :jwt_jti
       t.datetime :reset_password_sent_at
 
       ## Rememberable
